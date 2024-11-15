@@ -1,0 +1,29 @@
+{
+  "name": "care-sugar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7"
+  }
+}

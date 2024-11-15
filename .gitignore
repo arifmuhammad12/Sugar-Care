@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Google Cloud credentials
+config/Suca-key.json
+*.json
